@@ -2,13 +2,57 @@
 Pylabs Sorting Module V 0.0.0
 
 -----
+## Documentation Structure
+
+This repository contains comprehensive documentation on data structures and sorting algorithms. The documentation is organized as follows:
+
+1. High-level overview in this README.md
+2. Detailed implementation documents in the `info-docs` folder:
+   - [Data Structures Documentation](./info-docs/data-structures.md)
+   - [Sorting Algorithms Documentation](./info-docs/sorting-algorithms.md)
+
+3. Specialized sorting algorithm implementations:
+   - Comparison-based Sorts
+     - [Exchange Sorts](./info-docs/comparison-sorts/exchange-sorts.md)
+   - Linear-time Sorts
+     - [Distribution Sorts](./info-docs/linear-sorts/distribution-sorts.md)
+   - Advanced Implementations
+     - [Hybrid Sorting Algorithms](./info-docs/hybrid-sorts/hybrid-algorithms.md)
+
+Each document contains detailed explanations, implementation details, performance analysis, best practices, and real-world applications.
+
+Each document in the info-docs folder contains detailed explanations, implementation details, performance analysis, and best practices for the respective topics.
+
+
 ## Currently as there are various sorting modules that sort in an forward path, we claim to solve that issue
 currently as the sorting methodologies are stagnant and solve one methodologies, this sorting method will only need one download and target industry, and will sort all the sorting foundational issues, improvements, within the repository
 
 
-### what sorting implementations computers used in fields?
+# Pylabs Sorting Module
 
-    1. Arrays:
+## Overview
+A comprehensive Python sorting module implementing various sorting algorithms with optimizations for different use cases.
+
+## Features
+1. Multiple sorting algorithm implementations:
+   - Comparison-based sorts (Quicksort, Mergesort, etc.)
+   - Linear-time sorts (Radix Sort, Counting Sort)
+   - Hybrid algorithms (Timsort, Introsort)
+2. Performance optimizations:
+   - Adaptive algorithms
+   - Cache-friendly implementations
+   - Memory-efficient variants
+3. Specialized sorting algorithm implementations:
+   - Comparison-based Sorts
+     - [Exchange Sorts](./info-docs/comparison-sorts/exchange-sorts.md)
+   - Linear-time Sorts
+     - [Distribution Sorts](./info-docs/linear-sorts/distribution-sorts.md)
+   - Advanced Implementations
+     - [Hybrid Sorting Algorithms](./info-docs/hybrid-sorts/hybrid-algorithms.md)
+
+Each document contains detailed explanations, implementation details, performance analysis, best practices, and real-world applications.
+
+## Data Structures and Algorithms
 
 Concept: A collection of elements, each identified by an index or key, stored at contiguous memory locations.
 
